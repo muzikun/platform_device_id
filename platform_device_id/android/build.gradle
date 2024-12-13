@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 28
     if (project.android.hasProperty("namespace")) {
-        namespace("com.di1shuai.platform_device_id")
+        namespace("com.di1shuai.custom_platform_device_id")
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
